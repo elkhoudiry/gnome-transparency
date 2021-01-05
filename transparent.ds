@@ -1,0 +1,10 @@
+( if
+( or ( contains ( window_class ) "Code" ) ( contains ( window_class ) "Nautilus" ) ( contains (window_class) "TeamViewer" ) 
+( contains ( window_class ) "Firefox" ) ( contains ( window_class ) "Chromium" ) ( contains ( window_class ) "Discord" ) ( contains ( window_class ) "Gedit" ) )
+( begin
+( spawn_async (str "xprop -id " (window_xid) " -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY 0xf0ffffff") )
+)
+)
+
+
+
