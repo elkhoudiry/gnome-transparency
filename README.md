@@ -53,7 +53,7 @@ user@user-computer:~/.devilspie$
 devilspie
 ```
 
-- you can make devilspie run on startup to eleminate setup #4
+- you can make devilspie run on startup to eleminate setup #5
 
 ## Result
 
